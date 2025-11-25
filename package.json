@@ -1,0 +1,14 @@
+{
+  "name": "mcp-cli-tool",
+  "version": "0.1.0",
+  "description": "A minimal CLI tool starter.",
+  "type": "module",
+  "bin": {
+    "mcp-tool": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node bin/cli.js --version"
+  },
+  "license": "MIT"
+}
